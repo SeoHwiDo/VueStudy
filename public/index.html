@@ -11,7 +11,18 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <p>{{messege}}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script type="text/javascript">
+    new Vue({
+      el:'#app',
+      data:{
+        messege:'뷰 인스턴스 테스트'
+      }
+    })
+    </script>
     <!-- built files will be auto injected -->
   </body>
 </html>
