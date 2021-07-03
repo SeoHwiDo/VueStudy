@@ -1,28 +1,55 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <h1>vfor 테스트</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>도서번호</th><th>도서제목</th><th>출판사</th><th>작가</th><th>도서번호</th>재고
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="item in books" v-bind:key="item.id">
+          <td>{{item.id}}</td>
+          <td>{{item.title}}</td>
+          <td>{{item.pub}}</td>
+          <td>{{item.aut}}</td>
+          <td>{{item.stock}}</td>
+        </tr>
+      </tbody>
+    </table>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  name:'app',
+  data(){
+    return{
+      books:[
+        {id:1,title:'제목1',pub:'출판사1',aut:'작가1',stock:0},
+        {id:2,title:'제목2',pub:'출판사2',aut:'작가2',stock:1},
+        {id:3,title:'제목3',pub:'출판사3',aut:'작가3',stock:2},
+        {id:4,title:'제목4',pub:'출판사4',aut:'작가4',stock:3},
+        {id:5,title:'제목5',pub:'출판사5',aut:'작가5',stock:4},
+      ]
+    }
   }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tr:nth-of-type(odd){
+    background: #eee;
+  }
+  th{
+    background: #333;
+    color:white;
+    font-weight: bold;
+  }
+  td,th{
+    padding: 6px;
+    color: white;
+    text-align: left;
+  }
 </style>
