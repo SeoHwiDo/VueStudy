@@ -4,7 +4,7 @@
     <table>
       <thead>
         <tr>
-          <th>도서번호</th><th>도서제목</th><th>출판사</th><th>작가</th><th>도서번호</th>재고
+          <th>도서번호</th><th>도서제목</th><th>출판사</th><th>작가</th><th>재고</th>
         </tr>
       </thead>
       <tbody>
