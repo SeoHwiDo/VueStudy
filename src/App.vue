@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import Home from './components/Home';
+// import Home from './components/Home';
 import homebutton from './components/Homebutton';
 
 export default {
   name: 'App',
 
   components: {
-    Home,homebutton,
+    homebutton,
   },
 };
 </script>
