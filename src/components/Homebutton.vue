@@ -8,7 +8,7 @@
         </v-btn>
         <v-btn fab color="teal" dark>
             <v-icon>bluetooth</v-icon>
-            
+        </v-btn>
     </div>
 </template>
 <script>
