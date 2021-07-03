@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-content>
-      <home></home>
+      <!-- <home></home> -->
       <homebutton></homebutton>
     </v-content>
   </v-app>  
