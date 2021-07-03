@@ -20,14 +20,14 @@
                             <i class="material-icons">menu</i></a>
                         <ul class="right hide-on-med-and-down">
                             <li v-for="link in navlinks" :key="link.text">
-                            <a href="link.href">{{link.text}}</a></li>
+                            <a :href="link.href">{{link.text}}</a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
         <ul class="sidenav" id="nav-mobile">
-            <li v-for="link in navlinks" :key=link.text><a href="link.href">{{link.text}}</a></li>
+            <li v-for="link in navlinks" :key=link.text><a :href="link.href">{{link.text}}</a></li>
         </ul>
         <!-- 추가 내용 -->
     </div>
