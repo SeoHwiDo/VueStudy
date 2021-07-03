@@ -1,21 +1,21 @@
 <template>
   <v-app>
     <v-content>
-      <!-- <home></home> -->
+      <home></home>
       <homebutton></homebutton>
     </v-content>
   </v-app>  
 </template>
 
 <script>
-// import Home from './components/Home';
-import homebutton from './components/Homebutton';
+import Home from './components/Home';
+import Homebutton from './components/Homebutton';
 
 export default {
   name: 'App',
 
   components: {
-    homebutton,
+    Homebutton,Home,
   },
 };
 </script>
