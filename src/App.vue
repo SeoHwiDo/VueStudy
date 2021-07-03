@@ -50,7 +50,7 @@ export default {
   }
   td,th{
     padding: 6px;
-    color: white;
+    color: black;
     text-align: left;
   }
 </style>
