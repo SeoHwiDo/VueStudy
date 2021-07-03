@@ -4,7 +4,7 @@
         <v-btn class="teal white-text">기본버튼</v-btn>
         <v-btn color="teal" text>기본버튼</v-btn>
         <v-btn color="teal" dark>
-            <v-icon>bluetooth</v-icon>
+            <v-icon>mdi-bluetooth</v-icon>
         </v-btn>
         <v-btn fab color="teal" dark>
             
