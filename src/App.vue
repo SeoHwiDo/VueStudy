@@ -5,8 +5,6 @@
                 <nav class="cyan">
                     <div class="nav-wrapper">
                         <a href="#" class="brand-logo">Groad</a>
-                        <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-                            <i class="material-icons">menu</i></a>
                         <ul class="right">
                             <li v-for="link in navlinks" :key="link.text">
                             <a :href="link.href">{{link.text}}</a></li>
