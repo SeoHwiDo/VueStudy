@@ -1,7 +1,7 @@
 <template>
 <div class="toolbar">
-    <v-toolbar color="blue" dense flat>
-        <v-toolbar-title color="white">Groad</v-toolbar-title>
+    <v-toolbar dark color="blue" dense flat>
+        <v-toolbar-title>Groad</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items>
         <v-btn text>마음의 순례길</v-btn>
