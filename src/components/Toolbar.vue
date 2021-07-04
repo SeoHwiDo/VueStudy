@@ -3,7 +3,7 @@
     <v-toolbar dark color="blue" dense flat>
         <v-toolbar-title>Groad</v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-toolbar-items style="">
+        <v-toolbar-items>
         <v-btn text>마음의 순례길</v-btn>
         <v-btn text>여행 도우미</v-btn>
         <v-btn text>순례길 이야기</v-btn>
