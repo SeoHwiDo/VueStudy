@@ -1,5 +1,5 @@
 <template>
-<div class="toolbar">
+<div>
     <v-toolbar dark color="blue" dense flat>
         <v-toolbar-title>Groad</v-toolbar-title>
         <v-spacer></v-spacer>
