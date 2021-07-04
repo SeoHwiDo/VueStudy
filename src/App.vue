@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <v-content>
+      <toolbar></toolbar>
       <home></home>
       <homebutton></homebutton>
     </v-content>
@@ -10,12 +11,12 @@
 <script>
 import Home from './components/Home';
 import Homebutton from './components/Homebutton';
-
+import Toolbar from './components/Toolbar'
 export default {
   name: 'App',
 
   components: {
-    Homebutton,Home,
+    Homebutton,Home,Toolbar,
   },
 };
 </script>
